@@ -50,7 +50,7 @@ char getInput()
 // A function used to get player 2's input and set to equal its variable and return!
 char getInput2()
 {
-	std::cout << Name1 << ": You are first pick a number from 1 to 9 to place an X" << std::endl;
+	std::cout << Name1 << ": You are next, pick a number from 1 to 9 to place an O" << std::endl;
 	std::cin >> player2;
 	return player2;
 }
